@@ -1,0 +1,16 @@
+[manifest]
+id = ""
+version = "1.0.0"
+display_name = "Exit To Isles"
+description = "Allows you to exit to Isles"
+short_description = "Allows you to exit to Isles"
+authors = [ "Umed", "Ballaam" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = ""
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
