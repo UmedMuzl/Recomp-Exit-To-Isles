@@ -3,7 +3,7 @@
 Allows you to exit to Isles
 
 ## Installation
-1. Download the latest `.nrm` from Releases.
+1. Download the latest `dk64_exit_to_isles.nrm` from Releases.
 2. Put the file in your DK64 Recompiled mods folder.
    - Example (Windows): `C:\Users\<YourUser>\AppData\Local\DK64Recompiled\mods`
 3. Launch DK64 Recompiled and enable the mod from the mods menu.

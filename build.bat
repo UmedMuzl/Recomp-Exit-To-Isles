@@ -9,7 +9,7 @@ echo Running RecompModTool...
 if errorlevel 1 goto error
 
 echo Zipping output file into .\bin...
-zip -j ".\bin\.zip" ".\bin\.nrm"
+zip -j ".\bin\dk64_exit_to_isles.zip" ".\bin\dk64_exit_to_isles.nrm"
 if errorlevel 1 goto error
 
 echo Complete

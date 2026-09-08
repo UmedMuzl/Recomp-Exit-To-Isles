@@ -1,16 +1,16 @@
 [manifest]
-id = ""
+id = "dk64_exit_to_isles"
 version = "1.0.0"
 display_name = "Exit To Isles"
-description = "Allows you to exit to Isles"
-short_description = "Allows you to exit to Isles"
+description = "Hold L while confirming EXIT LEVEL or QUIT GAME in the pause menu to warp to DK Isles instead"
+short_description = "Hold L on EXIT LEVEL / QUIT GAME to warp to DK Isles."
 authors = [ "Umed", "Ballaam" ]
 game_id = "dk64"
 minimum_recomp_version = "1.0.0"
 
 [inputs]
 elf_path = "build/mod.elf"
-mod_filename = ""
+mod_filename = "dk64_exit_to_isles"
 func_reference_syms_file = "Dk64Syms/dump.toml"
 data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
 additional_files = ["thumb.dds"]

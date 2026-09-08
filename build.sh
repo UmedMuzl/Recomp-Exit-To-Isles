@@ -7,6 +7,6 @@ echo "Running RecompModTool..."
 ./RecompModTool ./mod.toml ./bin
 
 echo "Zipping output file into ./bin..."
-zip -j ./bin/.zip ./bin/.nrm
+zip -j ./bin/dk64_exit_to_isles.zip ./bin/dk64_exit_to_isles.nrm
 
 echo "Complete"
